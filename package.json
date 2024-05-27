@@ -1,12 +1,11 @@
 {
-  "name": "@uniswap/v3-core",
-  "description": "🦄 Core smart contracts of Uniswap V3",
+  "name": "depin-dex-v3-core",
+  "description": "Core smart contracts of Depin dex V3",
   "license": "BUSL-1.1",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.1",
-  "homepage": "https://uniswap.org",
+  "version": "1.0.0",
   "keywords": [
     "uniswap",
     "core",
@@ -14,13 +13,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v3-core"
+    "url": "https://github.com/Depin842/depinDex-v3-core.git"
   },
   "files": [
     "contracts/interfaces",
     "contracts/libraries",
-    "artifacts/contracts/UniswapV3Factory.sol/UniswapV3Factory.json",
-    "artifacts/contracts/UniswapV3Pool.sol/UniswapV3Pool.json",
+    "artifacts/contracts/DepinDexFactory.sol/DepinDexFactory.json",
+    "artifacts/contracts/DepinDexPool.sol/DepinDexPool.json",
     "artifacts/contracts/interfaces/**/*.json",
     "!artifacts/contracts/interfaces/**/*.dbg.json"
   ],
